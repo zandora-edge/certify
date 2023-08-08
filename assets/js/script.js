@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const certificateCode = document.getElementById("certificateCode").value;
   
       try {
-        const response = await fetch("assets/database/Issued_Certificates_DB.csv");
+        const response = await fetch("assets/database/Issued_Certificates_Database.csv");
         const data = await response.text();
   
         Papa.parse(data, {
