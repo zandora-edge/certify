@@ -28,6 +28,7 @@ body {
   /* Apply styles for screens up to 768px wide (e.g., tablets and phones) */
   @media (max-width: 768px) {
     max-width: 80%; /* Adjust max width for smaller screens */
+    width: 75%;
     padding: 10px; /* Adjust padding for smaller screens */
   }
 }
@@ -54,6 +55,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      /* Apply styles for screens up to 768px wide (e.g., tablets and phones) */
+    @media (max-width: 768px) {
+      width: 80%; /* Adjust width for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
 
   }
   
